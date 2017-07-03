@@ -2,7 +2,7 @@ SOX=/usr/local/bin/sox
 
 if [ "$3" == "" ]; then
   echo ""
-  echo "Usage: ./cross.sh crossfade_amount_in_seconds output_file file1 file2 file3 ..."
+  echo "Usage: ./crossfade crossfade_amount_in_seconds output_file file1 file2 file3 ..."
   echo ""
   exit 1
 fi
